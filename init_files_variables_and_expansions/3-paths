@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(find -minddepth -l type -d PATH | wc -l)
+echo $PATH (find -minddepth -l type -d | wc -l)
