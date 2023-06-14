@@ -1,2 +1,2 @@
 #!/bin/bash
-find -minddepth 1 -type d | wc -l
+echo $(find -minddepth -l type -d |wc -l)
